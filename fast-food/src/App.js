@@ -1,9 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Header/header';
+import CategoryList from './CategoryList/categoryList';
+
 
 function App() {
   return (
-<h1>فست فود کاتالوگ</h1>
+    <div className="wrapper   bg-faded-dark">
+      <Header />
+      <CategoryList />
+    </div>
   );
 }
 
